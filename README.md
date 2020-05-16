@@ -12,11 +12,11 @@ The .java source files present in the repository consists of the following state
 2. Prompts user to input mysql username and password,
 3. Once the connection is estabilished, the sql queries would be executed using executeQuery() and executeUpdate() funtions.
 4. Created below five methods in Java application for each query as follows:
-    **submittedPaper()** : This method gets a submitted paper’s details by the author’s Primary Key. The query would result following                              columns Paper.Id, Paper.Title, Paper.Abstract, Author.EmailAddress, Author.FirstName, Author.LastName.
-    **review()**         : This method gets all reviews for a paper by the paper’s Id, where the paper was recommended to be published.                            If there are no records that to be published, then prints message ass no records are found. The query would                              result all the columns from the Review table.
-    **listPaperSubmit()**: This method gets the counts of all papers that are submitted
-    **newPaper()**       : This method creates the new paper for submission, which includes inserting a record in Author as well as                                Paper table. 
-    **deleteAuthor()**   : This method deleted the record from Author table by primary key i.e., emailAddress. The query would result in                            deleting the record, as delete on cascade has been used in DDL.
+**submittedPaper()** : This method gets a submitted paper’s details by the author’s Primary Key. The query would result following                              columns Paper.Id, Paper.Title, Paper.Abstract, Author.EmailAddress, Author.FirstName, Author.LastName.
+**review()**         : This method gets all reviews for a paper by the paper’s Id, where the paper was recommended to be published.                            If there are no records that to be published, then prints message ass no records are found. The query would                              result all the columns from the Review table.
+**listPaperSubmit()**: This method gets the counts of all papers that are submitted
+**newPaper()**       : This method creates the new paper for submission, which includes inserting a record in Author as well as                                Paper table. 
+**deleteAuthor()**   : This method deleted the record from Author table by primary key i.e., emailAddress. The query would result in                            deleting the record, as delete on cascade has been used in DDL.
 
 ### **Execution instructions:**
 
